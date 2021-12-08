@@ -1,0 +1,266 @@
+body{
+    background-color: rgb(71, 17, 121);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+
+}
+
+h1{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+h2{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.icons{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.linkedin{
+    max-height: 20px;
+    max-width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.github{
+    max-height: 20px;
+    max-width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:30px auto;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.tecnologias{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.plataformas{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+
+.ling1{
+    margin-left: 50px;
+    margin-right:  50px;
+    padding: 50px;
+    padding-left:20px;
+    padding-right:20px;
+    border-radius: 30%;
+    color: black;
+    font-size: 30px;
+    background-color: yellow;
+}
+.ling2{
+    margin-left:  50px;
+    margin-right:  50px;
+    padding: 50px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 30%;
+    font-size: 30px;
+    color: rgb(35, 135, 228);
+    background-color: white;
+}
+.ling3 {
+    margin-left:  50px;
+    margin-right:  50px;
+    padding: 50px;
+    border-radius: 30%;
+    background-color: rgb(35, 135, 228);
+    color: white;
+    font-size: 30px;
+}
+.ling4{
+    margin-left: 50px;
+    margin-right:  50px;
+    padding: 50px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 30%;
+    color: white;
+    background-color: tomato;
+    font-size: 30px;
+}
+
+.plat1 {
+    margin-left: 50px;
+    margin-right:  50px;
+    padding: 50px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 30%;
+    color: white;
+    background-color: black;
+    font-size: 30px;
+}
+
+.plat2 {
+    margin-left: 50px;
+    margin-right:  50px;
+    padding: 50px;
+    padding-left:30px;
+    padding-right:30px;
+    border-radius: 30%;
+    color: rgb(35, 135, 228);
+    background-color: white;
+    font-size: 30px;
+}
+
+.plat3 {
+    margin-left: 50px;
+    margin-right:  50px;
+    padding: 50px;
+    padding-left:40px;
+    padding-right:40px;
+    border-radius: 30%;
+    color: yellow;
+    background-color: gray;
+    font-size: 30px;
+}
+
+.sites{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+.site1{
+    margin: 10px;
+    padding: 20px;
+    border: rgb(35, 135, 228)solid 3px;
+    color: rgb(35, 135, 228);
+    background-color:white;
+    font-size: 20px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.site1:hover{
+    background-color: rgba(35, 135, 228, 0.527);
+}
+
+.site2{
+    margin: 10px;
+    padding: 20px;
+    border: rgb(35, 135, 228)solid 3px;
+    color: rgb(35, 135, 228);
+    background-color:white;
+    font-size: 20px;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.site2:hover{
+    background-color: rgba(35, 135, 228, 0.527);
+}
+
+.site3{
+    margin: 10px;
+    padding: 20px;
+    border: rgb(35, 135, 228)solid 3px;
+    color: rgb(35, 135, 228);
+    background-color:white;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.site3:hover{
+    background-color: rgba(35, 135, 228, 0.527);
+}
+
+.site4{
+    margin: 10px;
+    padding: 20px;
+    border: rgb(35, 135, 228)solid 3px;
+    color: rgb(35, 135, 228);
+    background-color:white;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.site4:hover{
+    background-color: rgba(35, 135, 228, 0.527);
+}
+
+.site5{
+    margin: 10px;
+    padding: 20px;
+    border: rgb(35, 135, 228)solid 3px;
+    color: rgb(35, 135, 228);
+    background-color:white;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.site5:hover{
+    background-color: rgba(35, 135, 228, 0.527);
+}
+
+.site6{
+    margin: 10px;
+    border: rgb(35, 135, 228)solid 3px;
+    padding: 20px;
+    color: rgb(35, 135, 228);
+    background-color:white;
+    border-radius: 30%;
+    cursor: pointer;
+}
+.site6:hover{
+    background-color: rgba(35, 135, 228, 0.527);
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 20px;
+    padding: auto;
+    
+    }
+p {
+   text-decoration: none;
+    color:white
+}
+a {
+    text-decoration:underline ;
+     color:white
+ }
